@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- Search Widget -->
+    <!--
+    <item android:id="@+id/action_search"
+          android:icon="@drawable/ic_action_search"
+          android:title="@string/action_search"
+          android:showAsAction="always"
+          android:actionViewClass="android.widget.SearchView"/>
+    -->
+    
+    <!-- Location Found -->
+    <item android:id="@+id/action_location_found"
+          android:icon="@drawable/ic_action_place"
+          android:title="@string/action_location_found"
+          android:showAsAction="always" />
+    
+    
+    <item android:id="@+id/action_contact"
+          android:icon="@drawable/ic_action_cc_bcc"
+          android:title="@string/action_contact" 
+          android:showAsAction="always" />
+
+    
+</menu>

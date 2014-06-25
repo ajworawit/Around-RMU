@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            
+         <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_margin="10dp" >
+
+        <ImageView
+            android:id="@+id/img_build"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+             />
+
+    </LinearLayout>
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp" >
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="นำทาง :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ff8800"
+	        android:typeface="sans" 
+	        android:textSize="18dip"
+	        android:textStyle="bold"
+            />
+
+        <ImageView
+            android:id="@+id/btnNearby"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/nearby" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="ชื่อ :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ff8800"
+	        android:typeface="sans" 
+	        android:textSize="18dip"
+	        android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/tvname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_margin="10dp"  >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="ที่ตั้ง  :"
+            android:textAppearance="?android:attr/textAppearanceMedium" 
+            android:textColor="#ff8800"
+	        android:typeface="sans" 
+	        android:textSize="18dip"
+	        android:textStyle="bold"
+	        />
+
+        <TextView
+            android:id="@+id/tvPlace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Place"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+         android:layout_margin="10dp"  >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="เว็บไซต์  :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ff8800"
+	        android:typeface="sans" 
+	        android:textSize="18dip"
+	        android:textStyle="bold"
+	         />
+
+        <TextView
+            android:id="@+id/tvwebsite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="website"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+         android:layout_margin="10dp"  >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="โทรศัพท์  :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ff8800"
+	        android:typeface="sans" 
+	        android:textSize="18dip"
+	        android:textStyle="bold"
+	         />
+
+        <TextView
+            android:id="@+id/tvtel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tel"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+         android:layout_margin="10dp"  >
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="วันทำการ :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ff8800"
+	        android:typeface="sans" 
+	        android:textSize="18dip"
+	        android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvworkdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="workdate"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+
+          <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+         android:layout_margin="10dp"  >
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="เวลาทำการ :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ff8800"
+	        android:typeface="sans" 
+	        android:textSize="18dip"
+	        android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvworktime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="worktime"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+     
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_margin="10dp"  >
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="ที่อยู่  :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ff8800"
+	        android:typeface="sans" 
+	        android:textSize="18dip"
+	        android:textStyle="bold"
+	         />
+
+        <TextView
+            android:id="@+id/tvaddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="address"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+     
+            
+     
+            
+            
+        </LinearLayout>
+    </ScrollView>
+
+   
+</LinearLayout>

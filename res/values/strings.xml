@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Around RMU</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <color name="titlebackgroundcolor">#3232CD</color>
+    <color name="titletextcolor">#FFFF00</color>
+        <!-- Activity titles -->    
+    <string name="activity_location_found">Location Found</string>
+    
+    <!-- Action Bar action items -->
+    <string name="action_search">Sarch</string>
+    <string name="action_location_found">Location</string>
+    <string name="action_contact">Contact</string>
+
+    <!-- Search  -->
+    <string name="search_hint">ค้นหาอาคาร..</string>
+    
+     <!-- title bar  -->
+    <string name="activity_map">อาคารใน มรม..</string>
+    <string name="activity_roundmap">เส้นทางการเดินทาง..</string>
+    <string name="activity_detail">รายละเอียด..</string>
+    <string name="activity_search_result">ผลการค้นหา..</string>
+    <string name="activity_develop">เกี่ยวกับ..</string>
+    
+    
+    
+</resources>
